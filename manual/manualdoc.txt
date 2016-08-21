@@ -1,0 +1,13 @@
+Objective: To place all the cards in their corresponding suit pile panel  in the order of Ace to King with King on top
+Controls: 
+1.) The player can drag a single card from the subdrawpile panel and the suit pile panels in the suit piles field. If the player chooses the option of having 3 cards in the subdrawpile panel, still the same rules apply, only one card can be dragged at a time and the other cards can only be dragged if the previous card was removed
+2.) The player can drag single or multiple cards from the pile panels in the piles field
+3.) The player can only click a single card from the main draw pile panel. 
+If however this panel became empty, clicking its background picture (the joker) will move all the cards from the subdrawpile panel into the maindrawpile panel
+Nominal Rank (from lowest to greatest):
+Ace, Two, Three, Four, Five, Six, Seven, Eight, Nine, Ten, Jack, Queen, King 
+Restrictions:
+1.) The player can not push any card/s into the maindrawpile panel or subdrawpile panel which are both inside the drawpileholder panel
+2.) (Not implemented yet) All Face down card/s that is/are either dragged as one or along other cards can not be dragged from their position. (Already implemented) Push (adding a card into a pile) or pop (removing a card from a pile) that involves face down cards are not allowed.
+3.) Every push into the suit pile panels are checked such that the last card in the suit pile panel, the panel where the card will be pushed, must have a lower nominal rank than the card that the player wants to push into the suit pile panel.   
+4.) Every push into the pile panels are checked such that the last card in the pile panel, the panel where the card will be pushed, must have a higher nominal rank than the card that the player wants to push into the pile panel and their color must also vary (with one being red and the other black).

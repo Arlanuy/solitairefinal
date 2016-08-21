@@ -1,0 +1,15 @@
+Open a command line and type "where java" then follow the two cases below accordingly based on what is the output of the command
+Case 1: (If you see something like C:\Program Files\Java\jdk1.8.0_60\bin\java.exe)
+
+1.) Navigate your way inside the solitairegame folder
+2.) Enter inside the "uy" folder
+3.) Type in the command line javac *.java
+4.) Go out of the "uy" folder
+5.) Type in the command line java.uy.SolitaireDemo
+6.) Play the game and exit the game by either clicking the X button 
+or by typing Ctrl C after clicking at the command prompt where you typed the previous command
+
+Case 2: If not
+1.) Install Java (a) or update it (b) to the version mentioned above
+(a) https://java.com/en/download/help/windows_manual_download.xml
+(b) https://www.java.com/en/download/help/java_update.xml
